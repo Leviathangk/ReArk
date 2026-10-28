@@ -12,8 +12,8 @@ ReArk 是一款面向 HarmonyOS NEXT、Android 和 iOS 应用的桌面逆向与 
 
 | 系统 | 版本要求 | 点击直接下载 |
 | :---: | --- | --- |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/windows8/windows8-original.svg" width="44" height="44" alt="Windows"><br>Windows | Windows 10+<br>x64 | [![Setup x64](https://img.shields.io/badge/Setup-x64-0078D4?style=flat-square)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-windows-x64-setup.exe) |
-| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/apple/apple-original.svg" width="44" height="44" alt="macOS"><br>macOS | macOS 14.0+<br>Apple Silicon | [![DMG Apple Silicon](https://img.shields.io/badge/DMG-Apple_Silicon-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/lkimuk/ReArk/releases/download/v1.0.0/ReArk-1.0.0-macos-arm64.dmg) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/windows8/windows8-original.svg" width="44" height="44" alt="Windows"><br>Windows | Windows 10+<br>x64 | [![Setup x64](https://img.shields.io/badge/Setup-x64-0078D4?style=flat-square)](https://github.com/lkimuk/ReArk/releases/download/v1.2.0/ReArk-1.2.0-windows-x64-setup.exe) |
+| <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/apple/apple-original.svg" width="44" height="44" alt="macOS"><br>macOS | macOS 14.0+<br>Apple Silicon | [![DMG Apple Silicon](https://img.shields.io/badge/DMG-Apple_Silicon-000000?style=flat-square&logo=apple&logoColor=white)](https://github.com/lkimuk/ReArk/releases/download/v1.2.0/ReArk-1.2.0-macos-arm64.dmg) |
 | <img src="https://raw.githubusercontent.com/devicons/devicon/v2.17.0/icons/linux/linux-original.svg" width="44" height="44" alt="Linux"><br>Linux | x64<br>系统要求待公布 | 下个版本提供 |
 
 ## 功能亮点
@@ -58,6 +58,16 @@ ReArk 是一款面向 HarmonyOS NEXT、Android 和 iOS 应用的桌面逆向与 
 - 支持全屏投屏和独立投屏窗口
 
 具体分析视图和设备操作取决于包格式、系统版本及设备能力。ABC 迹索工具和鸿蒙重签名功能适用于鸿蒙包。
+
+## 1.2.0 版本更新
+
+- 新增动态分析和运行时工作流，支持 Frida 插桩、CPU 仿真、内存转储和动态调试
+- 新增 APK 有界修改、重打包、对齐、签名和验签功能
+- 新增复刻模式，用于检测应用破解和篡改风险
+- 新增权限管理，以及在聊天框中动态切换模型
+- 支持图片附件和预览、`llama-server`，并支持通过 MCP Server 接入 REA 等外部工具
+- 增强 Android 内嵌 ELF 分析和 Agent 对原生构件的访问能力
+- 兼容旧式 IPA plist 格式，并改进工具、运行时和模型诊断信息
 
 ## 截图
 
